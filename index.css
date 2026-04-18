@@ -1,8 +1,48 @@
 body {
     margin: 0;
+    background-color:#1B244A;
+}
+
+.h1-heading{
+    font-family: "Verdana";
+    color:#EEEEEE;
+    font-size: 40px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+    width:155px;
+    background-color: #080001;
+    font-family: "Cursed Timer ULiL";
+    color:#F94F6D;
+    font-size:90px;
+}
+
+.increment-sub-box{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+
+.increment-sub-box > div{
+    border:1px solid #9AABD8;
+    color:#9AABD8;
+    padding:5px;
+    margin-top: 12px;
+    font-family: "Cursed Timer ULiL";
 }
